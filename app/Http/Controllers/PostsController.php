@@ -14,7 +14,7 @@ class PostsController extends Controller
         // ]);
         $posts = DB::table('posts')
             ->where('id', 6)
-            ->delete(); //delete co id = 4
+            // ->delete(); //delete co id = 4
             // ->update([
             //     //truong nao update thi ghi vao, khong ghi thi khong update
             //     'title' => 'Hello World'
@@ -39,7 +39,7 @@ class PostsController extends Controller
             // ->orwhere('id','>',1)
             // ->select("title")
             // ->first(); //ban ghi duoc tao dau tien (hop le khi comment "->get()" lai chu y dau cham phay)
-            // ->get();
+            ->get();
         dd($posts); // die dump
         // return view('posts.index');
     }
