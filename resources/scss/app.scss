@@ -1,0 +1,15 @@
+//frontend duoc quan ly tai day
+$primary-color: rgb(219, 198, 191);
+body{
+    background-color:$primary-color;
+}
+    .active{
+        color: red;
+    }
+
+// {{  de cac thay doi duoc hoat dong thi chay lenh npm run watch
+//     cmd cd laravel
+//     npm run dev
+//     dir /w
+//     type package.json
+//     npm run watch}}
